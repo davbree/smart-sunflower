@@ -1,5 +1,5 @@
 ---
-title: About
+title: About2
 sections:
   - type: hero_section
     title: About

@@ -18,7 +18,7 @@ export default class Advanced extends React.Component {
     render() {
         return (
             <Layout {...this.props}>
-            <h3>Why is it updating slow</h3>
+            <h3>Why is it updating slow???</h3>
             {_.map(_.get(this.props, 'pageContext.frontmatter.sections', null), (section, section_idx) => {
                 let component = _.upperFirst(_.camelCase(_.get(section, 'type', null)));
                 let Component = components[component];
